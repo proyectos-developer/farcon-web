@@ -7,15 +7,15 @@ import proyecto_metales from '../../assets/images/proyecto_metales_380.png'
 import proyecto_techos from '../../assets/images/proyecto_techos_380.png'
 import proyecto_canaletas from '../../assets/images/proyecto_canaletas_380.png'
 
-export default function Proyectos({proporcional}) {
+export default function ProyectosTablet({proporcional}) {
     
     return (
-        <div className='position-absolute' style={{width: '100%', paddingLeft: 350 / proporcional, paddingRight: 350 / proporcional, top: 670 / proporcional,
-                background: 'transparent', height: 'auto'}}>
+        <div className='' style={{width: '100%', paddingLeft: 60 / proporcional, paddingRight: 60 / proporcional, paddingTop: 80 / proporcional,
+                paddingBottom: 40 / proporcional, background: 'transparent', height: 'auto'}}>
             <div className='d-flex' style={{width: '100%', height: 'auto', marginBottom: 30 / proporcional}}>
-                <div className='shadow' style={{width: 378 / proporcional, marginLeft: 10 / proporcional, marginRight: 10 / proporcional, border: '1px solid #bdbdbd'}}>
-                    <div style={{width: 378 / proporcional, height: 280 / proporcional, marginBottom: 20 / proporcional}}>
-                        <img src={proyecto_comercial} style={{width: 378 / proporcional, height: 280 / proporcional}}/>
+                <div className='shadow' style={{width: 415.5 / proporcional, marginLeft: 10 / proporcional, marginRight: 10 / proporcional, border: '1px solid #bdbdbd'}}>
+                    <div style={{width: 415.5 / proporcional, height: 325 / proporcional, marginBottom: 20 / proporcional}}>
+                        <img src={proyecto_comercial} style={{width: 415.5 / proporcional, height: 325 / proporcional}}/>
                     </div>
                     <div className='position-relative' style={{width: 380 / proporcional, height: 90 / proporcional, paddingLeft: 10 / proporcional, paddingRight: 10 / proporcional, 
                         paddingTop: 10 / proporcional}}>
@@ -26,9 +26,9 @@ export default function Proyectos({proporcional}) {
                         </div>
                     </div>
                 </div>
-                <div className='shadow' style={{width: 378 / proporcional, marginLeft: 10 / proporcional, marginRight: 10 / proporcional, border: '1px solid #bdbdbd'}}>
-                    <div style={{width: 378 / proporcional, height: 280 / proporcional, marginBottom: 20 / proporcional}}>
-                        <img src={proyecto_residencial} style={{width: 378 / proporcional, height: 280 / proporcional}}/>
+                <div className='shadow' style={{width: 415.5 / proporcional, marginLeft: 10 / proporcional, marginRight: 10 / proporcional, border: '1px solid #bdbdbd'}}>
+                    <div style={{width: 415.5 / proporcional, height: 325 / proporcional, marginBottom: 20 / proporcional}}>
+                        <img src={proyecto_residencial} style={{width: 415.5 / proporcional, height: 325 / proporcional}}/>
                     </div>
                     <div className='position-relative' style={{width: 380 / proporcional, height: 90 / proporcional, paddingLeft: 10 / proporcional, paddingRight: 10 / proporcional, 
                         paddingTop: 10 / proporcional}}>
@@ -38,10 +38,12 @@ export default function Proyectos({proporcional}) {
                             </p>
                         </div>
                     </div>     
-                </div>               
-                <div className='shadow' style={{width: 378 / proporcional, marginLeft: 10 / proporcional, marginRight: 10 / proporcional, border: '1px solid #bdbdbd'}}>
-                    <div style={{width: 378 / proporcional, height: 280 / proporcional, marginBottom: 20 / proporcional}}>
-                        <img src={proyecto_industrial} style={{width: 378 / proporcional, height: 280 / proporcional}}/>
+                </div>        
+            </div>
+            <div className='d-flex' style={{width: '100%', height: 'auto', marginBottom: 30 / proporcional}}>       
+                <div className='shadow' style={{width: 415.5 / proporcional, marginLeft: 10 / proporcional, marginRight: 10 / proporcional, border: '1px solid #bdbdbd'}}>
+                    <div style={{width: 415.5 / proporcional, height: 325 / proporcional, marginBottom: 20 / proporcional}}>
+                        <img src={proyecto_industrial} style={{width: 415.5 / proporcional, height: 325 / proporcional}}/>
                     </div>
                     <div className='position-relative' style={{width: 380 / proporcional, height: 90 / proporcional, paddingLeft: 10 / proporcional, paddingRight: 10 / proporcional, 
                         paddingTop: 10 / proporcional}}>
@@ -52,11 +54,9 @@ export default function Proyectos({proporcional}) {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className='d-flex' style={{width: '100%', height: 'auto', marginBottom: 30 / proporcional}}>
-                <div className='shadow' style={{width: 378 / proporcional, marginLeft: 10 / proporcional, marginRight: 10 / proporcional, border: '1px solid #bdbdbd'}}>
-                    <div style={{width: 378 / proporcional, height: 280 / proporcional, marginBottom: 20 / proporcional}}>
-                        <img src={proyecto_techos} style={{width: 378 / proporcional, height: 280 / proporcional}}/>
+                <div className='shadow' style={{width: 415.5 / proporcional, marginLeft: 10 / proporcional, marginRight: 10 / proporcional, border: '1px solid #bdbdbd'}}>
+                    <div style={{width: 415.5 / proporcional, height: 325 / proporcional, marginBottom: 20 / proporcional}}>
+                        <img src={proyecto_techos} style={{width: 415.5 / proporcional, height: 325 / proporcional}}/>
                     </div>
                     <div className='position-relative' style={{width: 380 / proporcional, height: 90 / proporcional, paddingLeft: 10 / proporcional, paddingRight: 10 / proporcional, 
                         paddingTop: 10 / proporcional}}>
@@ -67,9 +67,11 @@ export default function Proyectos({proporcional}) {
                         </div>
                     </div>
                 </div>
-                <div className='shadow' style={{width: 378 / proporcional, marginLeft: 10 / proporcional, marginRight: 10 / proporcional, border: '1px solid #bdbdbd'}}>
-                    <div style={{width: 378 / proporcional, height: 280 / proporcional, marginBottom: 20 / proporcional}}>
-                        <img src={proyecto_canaletas} style={{width: 378 / proporcional, height: 280 / proporcional}}/>
+            </div>
+            <div className='d-flex' style={{width: '100%', height: 'auto', marginBottom: 30 / proporcional}}>  
+                <div className='shadow' style={{width: 415.5 / proporcional, marginLeft: 10 / proporcional, marginRight: 10 / proporcional, border: '1px solid #bdbdbd'}}>
+                    <div style={{width: 415.5 / proporcional, height: 325 / proporcional, marginBottom: 20 / proporcional}}>
+                        <img src={proyecto_canaletas} style={{width: 415.5 / proporcional, height: 325 / proporcional}}/>
                     </div>
                     <div className='position-relative' style={{width: 380 / proporcional, height: 90 / proporcional, paddingLeft: 10 / proporcional, paddingRight: 10 / proporcional, 
                         paddingTop: 10 / proporcional}}>
@@ -80,9 +82,9 @@ export default function Proyectos({proporcional}) {
                         </div>
                     </div>     
                 </div>               
-                <div className='shadow' style={{width: 378 / proporcional, marginLeft: 10 / proporcional, marginRight: 10 / proporcional, border: '1px solid #bdbdbd'}}>
-                    <div style={{width: 378 / proporcional, height: 280 / proporcional, marginBottom: 20 / proporcional}}>
-                        <img src={proyecto_metales} style={{width: 378 / proporcional, height: 280 / proporcional}}/>
+                <div className='shadow' style={{width: 415.5 / proporcional, marginLeft: 10 / proporcional, marginRight: 10 / proporcional, border: '1px solid #bdbdbd'}}>
+                    <div style={{width: 415.5 / proporcional, height: 325 / proporcional, marginBottom: 20 / proporcional}}>
+                        <img src={proyecto_metales} style={{width: 415.5 / proporcional, height: 325 / proporcional}}/>
                     </div>
                     <div className='position-relative' style={{width: 380 / proporcional, height: 90 / proporcional, paddingLeft: 10 / proporcional, paddingRight: 10 / proporcional, 
                         paddingTop: 10 / proporcional}}>
