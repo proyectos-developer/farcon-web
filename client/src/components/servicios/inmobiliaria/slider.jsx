@@ -9,8 +9,8 @@ export default function SliderInmobiliaria({proporcional}) {
                      backgroundRepeat: 'no-repeat'}}>
             <div className='position-relative' style={{width: '100%', height: 850 / proporcional, background: 'rgba(26, 41, 72, 0.4)'}}>
                 <div className='position-absolute top-50 start-50 translate-middle' style={{width: 'auto', height: 'auto'}}>
-                    <p style={{fontSize: 50 / proporcional, lineHeight: `${30 / proporcional}px`, marginBottom: 30 / proporcional, fontWeight: 700, color: 'white', fontFamily: 'Roboto, serif'}}>
-                        ENCUENTRA LA CASA DE TUS SUEñOS
+                    <p style={{fontSize: 50 / proporcional, lineHeight: `${60 / proporcional}px`, marginBottom: 30 / proporcional, fontWeight: 700, color: 'white', fontFamily: 'Roboto, serif'}}>
+                        ENCUENTRA LA CASA DE TUS SUEÑOS
                     </p>
                     <p style={{fontSize: 16 / proporcional, lineHeight: `${24 / proporcional}px`, marginBottom: 0, fontWeight: 300, color: 'white', fontFamily: 'Poppins, sans-serif',
                         textAlign: 'center'}}>

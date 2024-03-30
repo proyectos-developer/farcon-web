@@ -43,7 +43,7 @@ export default function Pasos({proporcional}) {
                     <div style={{width: '24%', height: 'auto'}}>
                         <div style={{width: '100%', height: 'auto'}}>
                             <div className='d-flex justify-content-center position-relative' style={{width: '100%', height: 'auto', marginBottom: 30 / proporcional}}>
-                                <img className='rounded-circle' src={paso_00} style={{width: 178 / proporcional, height: 178 / proporcional}}/>
+                                <img className='rounded-circle' src={paso_01} style={{width: 178 / proporcional, height: 178 / proporcional}}/>
                                 <div className='rounded-circle position-absolute' style={{width: 45 / proporcional, height: 45 / proporcional, border: '2px solid rgb(239, 126, 50)', top: 10 / proporcional,
                                         right: 60 / proporcional, background: 'white'}}>
                                     <p style={{fontSize: 20 / proporcional, lineHeight: `${45 / proporcional}px`, marginBottom: 0, color: 'rgb(239, 126, 50)', fontFamily: 'Roboto, sans-serif',
@@ -72,7 +72,7 @@ export default function Pasos({proporcional}) {
                     <div style={{width: '24%', height: 'auto'}}>
                         <div style={{width: '100%', height: 'auto'}}>
                             <div className='d-flex justify-content-center position-relative' style={{width: '100%', height: 'auto', marginBottom: 30 / proporcional}}>
-                                <img className='rounded-circle' src={paso_00} style={{width: 178 / proporcional, height: 178 / proporcional}}/>
+                                <img className='rounded-circle' src={paso_02} style={{width: 178 / proporcional, height: 178 / proporcional}}/>
                                 <div className='rounded-circle position-absolute' style={{width: 45 / proporcional, height: 45 / proporcional, border: '2px solid rgb(239, 126, 50)', top: 10 / proporcional,
                                         right: 60 / proporcional, background: 'white'}}>
                                     <p style={{fontSize: 20 / proporcional, lineHeight: `${45 / proporcional}px`, marginBottom: 0, color: 'rgb(239, 126, 50)', fontFamily: 'Roboto, sans-serif',
@@ -101,7 +101,7 @@ export default function Pasos({proporcional}) {
                     <div style={{width: '24%', height: 'auto'}}>
                         <div style={{width: '100%', height: 'auto'}}>
                             <div className='d-flex justify-content-center position-relative' style={{width: '100%', height: 'auto', marginBottom: 30 / proporcional}}>
-                                <img className='rounded-circle' src={paso_00} style={{width: 178 / proporcional, height: 178 / proporcional}}/>
+                                <img className='rounded-circle' src={paso_03} style={{width: 178 / proporcional, height: 178 / proporcional}}/>
                                 <div className='rounded-circle position-absolute' style={{width: 45 / proporcional, height: 45 / proporcional, border: '2px solid rgb(239, 126, 50)', top: 10 / proporcional,
                                         right: 60 / proporcional, background: 'white'}}>
                                     <p style={{fontSize: 20 / proporcional, lineHeight: `${45 / proporcional}px`, marginBottom: 0, color: 'rgb(239, 126, 50)', fontFamily: 'Roboto, sans-serif',

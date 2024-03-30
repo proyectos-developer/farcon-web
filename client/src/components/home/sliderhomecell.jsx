@@ -4,9 +4,9 @@ import home_image_0 from '../../assets/images/home_cero_499.png'
 
 export default function SliderHomeCell({proporcional}) {
     return (
-        <div className='' style={{width: '100%', height: 500 / proporcional,
+        <div className='' style={{width: '100%', height: 600 / proporcional,
             backgroundImage: `url(${home_image_0})`, backgroundPosition: 'center', backgroundSize: 'cover'}}>
-            <div className='position-relative' style={{width: '100%', height: 500 / proporcional, background: 'rgba(26, 41, 72, 0.4'}}>
+            <div className='position-relative' style={{width: '100%', height: 600 / proporcional, background: 'rgba(26, 41, 72, 0.4'}}>
                 <div className='position-absolute top-50 start-50 translate-middle' style={{width: 'auto', height: 500 / proporcional}}>
                     <p className='' style={{fontSize: 30 / proporcional, lineHeight: `${50 / proporcional}px`, color: 'white', fontWeight: 400, 
                         fontFamily: 'Montserrat, sans-serif', textAlign: 'center', marginBottom: 20 / proporcional}}>

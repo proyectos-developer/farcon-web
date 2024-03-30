@@ -8,7 +8,7 @@ import icono_phone from '../assets/iconos/icono_phone_black_40.png'
 export default function BarraSuperiorTablet({proporcional}) {
     return (
         <div style={{width: '100%', paddingLeft: 60 / proporcional, paddingRight: 60 / proporcional}}>
-            <div className='d-flex justify-content-center' style={{width: '100%', height: 142 / proporcional, paddingTop: 15 / proporcional, paddingBottom: 15 / proporcional}}>
+            <div className='d-flex justify-content-center' style={{width: '100%', height: 112 / proporcional, paddingTop: 15 / proporcional, paddingBottom: 15 / proporcional}}>
                 <img src={logo} style={{width: 168 / proporcional, height: 82 / proporcional}}/>
             </div>
             <div className='d-flex justify-content-center' style={{width: '100%', height: 70 / proporcional, paddingTop: 15 / proporcional, 

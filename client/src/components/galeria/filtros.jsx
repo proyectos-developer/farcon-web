@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 export default function Filtros({proporcional}) {
 
-    const [menu, setMenu] = useState ('inicio')
+    const [menu, setMenu] = useState ('todo')
 
     return (
         <div style={{width: '100%', height: 'auto', marginBottom: 55 / proporcional}}>

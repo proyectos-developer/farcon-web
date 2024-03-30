@@ -19,17 +19,17 @@ import NuestrosServicios from './components/servicios/begin.jsx'
 import NuestrosServiciosTablet from './components/servicios/begintablet.jsx'
 import NuestrosServiciosCell from './components/servicios/begincell.jsx'
 
-import Inmobiliaria from './components/servicios/inmobiliaria/begin.jsx'
-import InmobiliariaTablet from './components/servicios/inmobiliaria/begintablet.jsx'
-import InmobiliariaCell from './components/servicios/inmobiliaria/begincell.jsx'
-
 import Construccion from './components/servicios/construccion/begin.jsx'
 import ConstruccionTablet from './components/servicios/construccion/begintablet.jsx'
 import ConstruccionCell from './components/servicios/construccion/begincell.jsx'
 
+import Inmobiliaria from './components/servicios/inmobiliaria/begin.jsx'
+import InmobiliariaTablet from './components/servicios/inmobiliaria/begintablet.jsx'
+import InmobiliariaCell from './components/servicios/inmobiliaria/begincell.jsx'
+
 import DetallesSitio from './components/servicios/inmobiliaria/detalles/begin.jsx'
-import DetallesSitioTablet from './components/servicios/inmobiliaria/detales/begintablet.jsx'
-import DetallesSitioCell from './components/servicios/inmobiliaria/detales/begincell.jsx'
+import DetallesSitioTablet from './components/servicios/inmobiliaria/detalles/begintablet.jsx'
+import DetallesSitioCell from './components/servicios/inmobiliaria/detalles/begincell.jsx'
 
 import Galeria from './components/galeria/begin.jsx'
 import GaleriaTablet from './components/galeria/begintablet.jsx'
@@ -69,6 +69,10 @@ function App() {
                                                       width < 991 ? <SobreNosotrosTablet proporcional={991 / width}/> : 
                                                                     <SobreNosotros       proporcional={1920 / width} />}/>
 
+                <Route path='nuestros-servicios/construccion' element={width < 500 ? <ConstruccionCell   proporcional={499 / width}/> : 
+                                                                       width < 991 ? <ConstruccionTablet proporcional={991 / width}/> : 
+                                                                                     <Construccion       proporcional={1920 / width} />}/>
+
                 <Route path='nuestros-servicios' element={width < 500 ? <NuestrosServiciosCell   proporcional={499 / width}/> : 
                                                           width < 991 ? <NuestrosServiciosTablet proporcional={991 / width}/> : 
                                                                         <NuestrosServicios       proporcional={1920 / width} />}/>
@@ -81,9 +85,6 @@ function App() {
                                                                                  width < 991 ? <DetallesSitioTablet proporcional={991 / width}/> : 
                                                                                                <DetallesSitio       proporcional={1920 / width} />}/>
 
-                <Route path='nuestros-servicios/construccion' element={width < 500 ? <ConstruccionCell   proporcional={499 / width}/> : 
-                                                                       width < 991 ? <ConstruccionTablet proporcional={991 / width}/> : 
-                                                                                     <Construccion       proporcional={1920 / width} />}/>
 
                 <Route path='galeria' element={width < 500 ? <GaleriaCell   proporcional={499 / width}/> : 
                                                width < 991 ? <GaleriaTablet proporcional={991 / width}/> : 
