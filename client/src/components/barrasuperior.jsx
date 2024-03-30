@@ -4,13 +4,17 @@ import logo from '../assets/logo_168.png'
 import icono_location from '../assets/iconos/icono_location_black_40.png'
 import icono_clock from '../assets/iconos/icono_clock_black_40.png'
 import icono_phone from '../assets/iconos/icono_phone_black_40.png'
+import { useNavigate } from 'react-router-dom'
 
 export default function BarraSuperior({proporcional}) {
+
+    const navigate = useNavigate()
+
     return (
         <div style={{width: '100%', paddingLeft: 365 / proporcional, paddingRight: 365 / proporcional}}>
             <div className='d-flex justify-content-between' style={{width: 1170 / proporcional, height: 112 / proporcional}}>
                 <div style={{width: 168 / proporcional, height: 112 / proporcional, paddingTop: 15 / proporcional, paddingBottom: 15 / proporcional}}>
-                    <img src={logo} style={{width: 168 / proporcional, height: 82 / proporcional}}/>
+                    <img src={logo} style={{width: 168 / proporcional, height: 82 / proporcional, cursor: 'pointer'}} onClick={() => navigate ('/')}/>
                 </div>
                 <div className='d-flex justify-content-end' style={{width: 710 / proporcional, height: 112 / proporcional, paddingTop: 36 / proporcional, 
                     paddingBottom: 36 / proporcional}}>

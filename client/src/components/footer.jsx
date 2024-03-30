@@ -4,8 +4,11 @@ import logo_white from '../assets/logo_white_246.png'
 import icono_clock from '../assets/iconos/icono_clock_orange_40.png'
 import icono_location from '../assets/iconos/icono_location_orange_40.png'
 import icono_phone from '../assets/iconos/icono_phone_orange_40.png'
+import { useNavigate } from 'react-router-dom'
 
 export default function Footer({proporcional}) {
+
+    const navigate = useNavigate()
 
     return (
         <div className='d-flex' style={{width: '100%', height: 'auto', paddingLeft: 350 / proporcional, paddingRight: 350 / proporcional,
@@ -28,24 +31,24 @@ export default function Footer({proporcional}) {
                 </p>                
                 <div style={{width: 70 / proporcional, marginBottom: 30 / proporcional, height: 1 / proporcional, background: '#ef7e32'}}/>
                 <div style={{width: 270 / proporcional, height: 'auto'}}>
-                    <p style={{fontSize: 16 / proporcional, marginBottom: 10 / proporcional, lineHeight: `${28 / proporcional}px`, color: '#dedede', fontWeight: 400,
-                                fontFamily: 'Relaway, sans-serif'}}>
+                    <p style={{fontSize: 16 / proporcional, marginBottom: 10 / proporcional, lineHeight: `${28 / proporcional}px`, color: '#dedede', fontWeight: 400, cursor: 'pointer',
+                                fontFamily: 'Relaway, sans-serif'}} onClick={() => {navigate ('/sobre-nosotros'); window.scrollTo(0, 0)}}>
                     Nosotros 
                     </p>                
-                    <p style={{fontSize: 16 / proporcional, marginBottom: 10 / proporcional, lineHeight: `${28 / proporcional}px`, color: '#dedede', fontWeight: 400,
-                                fontFamily: 'Relaway, sans-serif'}}>
-                    Servicios 
+                    <p style={{fontSize: 16 / proporcional, marginBottom: 10 / proporcional, lineHeight: `${28 / proporcional}px`, color: '#dedede', fontWeight: 400, cursor: 'pointer',
+                                fontFamily: 'Relaway, sans-serif'}} onClick={() => {navigate ('/nuestros-servicios/construccion'); window.scrollTo(0, 0)}}>
+                    Construcción 
                     </p>                
-                    <p style={{fontSize: 16 / proporcional, marginBottom: 10 / proporcional, lineHeight: `${28 / proporcional}px`, color: '#dedede', fontWeight: 400,
-                                fontFamily: 'Relaway, sans-serif'}}>
-                    Proyectos 
-                    </p>                
-                    <p style={{fontSize: 16 / proporcional, marginBottom: 10 / proporcional, lineHeight: `${28 / proporcional}px`, color: '#dedede', fontWeight: 400,
-                                fontFamily: 'Relaway, sans-serif'}}>
+                    <p style={{fontSize: 16 / proporcional, marginBottom: 10 / proporcional, lineHeight: `${28 / proporcional}px`, color: '#dedede', fontWeight: 400, cursor: 'pointer',
+                                fontFamily: 'Relaway, sans-serif'}} onClick={() => {navigate ('/nuestros-servicios/inmobiliaria'); window.scrollTo(0, 0)}}>
                     Inmobiliaria 
                     </p>                
-                    <p style={{fontSize: 16 / proporcional, marginBottom: 10 / proporcional, lineHeight: `${28 / proporcional}px`, color: '#dedede', fontWeight: 400,
-                                fontFamily: 'Relaway, sans-serif'}}>
+                    <p style={{fontSize: 16 / proporcional, marginBottom: 10 / proporcional, lineHeight: `${28 / proporcional}px`, color: '#dedede', fontWeight: 400, cursor: 'pointer',
+                                fontFamily: 'Relaway, sans-serif'}} onClick={() => {navigate ('/galeria'); window.scrollTo(0, 0)}}>
+                    Galería 
+                    </p>                
+                    <p style={{fontSize: 16 / proporcional, marginBottom: 10 / proporcional, lineHeight: `${28 / proporcional}px`, color: '#dedede', fontWeight: 400, cursor: 'pointer',
+                                fontFamily: 'Relaway, sans-serif'}} onClick={() => {navigate ('/contactanos'); window.scrollTo(0, 0)}}>
                     Contácto 
                     </p>                
                 </div>
