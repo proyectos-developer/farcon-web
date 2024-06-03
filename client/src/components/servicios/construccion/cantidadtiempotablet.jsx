@@ -1,9 +1,6 @@
 import React from 'react'
 
-import equipo_0 from '../../../assets/images/construccion_experiencia_0.png'
-import equipo_1 from '../../../assets/images/construccion_experiencia_1.png'
-import equipo_2 from '../../../assets/images/construccion_experiencia_2.png'
-import equipo_3 from '../../../assets/images/construccion_experiencia_3.png'
+import imagen_construccion from '../../../assets/images/construccion_experiencia.png'
 
 export default function CantidadTiempoTablet({proporcional}) {
 
@@ -43,17 +40,8 @@ export default function CantidadTiempoTablet({proporcional}) {
                     </div>
                 </div>
 
-                <div style={{width: '100%', height: 'auto', marginTop: 30 / proporcional, marginBottom: 30 / proporcional}}>
-                    <div style={{width: '100%', height: 'auto'}}>
-                        <div className='d-flex justify-content-between' style={{width: '100%', height: 'auto', marginBottom: 16 / proporcional}}>
-                            <img src={equipo_0} className='rounded-3' style={{width: '48%', height: 250 / proporcional}}/>
-                            <img src={equipo_1} className='rounded-3' style={{width: '48%', height: 250 / proporcional}}/>
-                        </div>
-                        <div className='d-flex justify-content-between' style={{width: '100%', height: 'auto', marginBottom: 16 / proporcional}}>
-                            <img src={equipo_2} className='rounded-3' style={{width: '48%', height: 250 / proporcional}}/>
-                            <img src={equipo_3} className='rounded-3' style={{width: '48%', height: 250 / proporcional}}/>
-                        </div>
-                    </div>
+                <div className='d-flex justify-content-center' style={{width: '100%', height: 'auto', marginTop: 30 / proporcional, marginBottom: 30 / proporcional}}>
+                    <img src={imagen_construccion} className='rounded-3' style={{width: '80%', height: '80%'}}/>
                 </div>
             </div>
         </div>

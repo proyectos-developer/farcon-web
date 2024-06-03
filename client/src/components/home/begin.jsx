@@ -15,7 +15,7 @@ export default function HomeBegin({proporcional}) {
                 <SliderHome proporcional={proporcional}/>
                 <Proyectos proporcional={proporcional}/>
             </div>
-            <div style={{width: '100%', height: 'auto', marginTop: 734 / proporcional}}>
+            <div style={{width: '100%', height: 'auto', marginTop: 340 / proporcional}}>
                 <Experiencia proporcional={proporcional}/>
                 <Escogen proporcional={proporcional}/>
                 <Recientes proporcional={proporcional}/>
